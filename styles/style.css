@@ -8,17 +8,20 @@
 
 /* Shared Styles */
 
-.primary-blue-btn{
-    border-radius: 10px;
-    background: rgb(78, 71, 255);
-    color: rgb(255, 255, 255);
-        font-family: Raleway;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 150%;
-        text-align: center;
-        padding: 12px 36px 12px 36px;
-        border: none;
+.primary-blue-btn {
+    background-color: #4f46e5;
+    color: white;
+    padding: 12px 36px 12px 36px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background-color 0.3s;
+}
+
+.primary-blue-btn:hover {
+    background-color: #4338ca;
 }
 
 
@@ -31,15 +34,20 @@ color:rgb(78, 71, 255);
     text-align: center;
 }
 
-.section-titile{
+.section-title{
     color: rgb(37, 36, 50);
         font-family: Raleway;
-        font-size: 42px;
+        font-size: 46px;
         font-weight: 700;
         line-height: 39px;
         letter-spacing: 0%;
-        text-align: left;
         margin-top: 0;
+}
+
+
+/* Body Style */
+body{
+    background: rgb(245, 248, 255);
 }
 
 /* Nav Styles */
@@ -90,7 +98,7 @@ main{
 
 /* Action Section Styles */
 .action-section{
-margin-top: 250px;
+margin-top: 200px;
 }
 .action-container{
     display: flex;
@@ -127,8 +135,8 @@ border-radius: 48px;
     display: flex;
     justify-content: center;
     border-radius: 24px;
-        background: rgba(78, 71, 255, 0.1);
-        padding: 50px 80px;
+    background: rgba(78, 71, 255, 0.1);
+    padding: 50px 80px;
 }
 .card-info-container{
     display: flex;
@@ -162,14 +170,11 @@ border-radius: 48px;
 .user-opinion-section{
     margin-top: 200px;
     
-
 }
-
 
 .review-card-container{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
 }
 
 .card {
@@ -184,21 +189,23 @@ border-radius: 48px;
 }
 
 .reviewer .img-rev{
-    border-radius: 48px;
+    border-radius: 100px;
+}
+
+
+.reviewer img{
+    width: 40px;
+    height: 40px;
 }
 
 .reviewer .info{
-    display: flex;
-    flex-direction: column;
+    line-height: 1px;
 }
 
-
-
-
-
-
-
-
+.user-opinion-section .reviewer{
+    display: flex;
+    align-items: center;
+}
 
 
 
@@ -207,12 +214,15 @@ border-radius: 48px;
     display: flex;
     justify-content: center;
     padding: 60px 20px;
+    border-radius: 14px;
+ background: rgb(255, 255, 255);
+ margin-top: 150px;
   
 }
 
 .focus-box {
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 30px;
    
 }
 
@@ -246,3 +256,102 @@ border-radius: 48px;
 }
 
 
+
+
+
+/* Contact Section */
+.contact-section {
+    background-color: #f4f6fc;
+    padding: 80px 20px;
+}
+
+.contact-container {
+    margin: auto;
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #111827;
+    line-height: 1.2;
+}
+
+.contact-form {
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-form label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    background-color: white;
+    resize: none;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #4f46e5;
+}
+
+
+
+
+
+/* Footer Section */
+.footer-section {
+    background-color: #ffffff;
+    padding: 60px 20px;
+}
+
+.footer-container {
+    
+}
+
+.footer-logo {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #6b7280;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #4f46e5;
+}
