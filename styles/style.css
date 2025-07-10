@@ -121,3 +121,128 @@ width: 100%;
 border-radius: 48px;
 }
 
+/* User Card Section Styles */
+.users-info-card-section{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 24px;
+        background: rgba(78, 71, 255, 0.1);
+        padding: 50px 80px;
+}
+.card-info-container{
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.user-num-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.num-title{
+    color: rgba(0, 0, 0, 0.5);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+}
+
+
+
+
+/*  What Our Users Say Section styles */
+
+.user-opinion-section{
+    margin-top: 200px;
+    
+
+}
+
+
+.review-card-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.reviewer .img-rev{
+    border-radius: 48px;
+}
+
+.reviewer .info{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Focus Preview Section */
+.focus-preview-section {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+  
+}
+
+.focus-box {
+    text-align: center;
+    padding: 40px 20px;
+   
+}
+
+.focus-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #111827;
+}
+
+.focus-subtext {
+    font-size: 16px;
+    color: #6b7280;
+    margin-bottom: 24px;
+}
+
+.focus-box .primary-blue-btn {
+
+    margin-bottom: 30px;
+}
+
+.focus-box .primary-blue-btn:hover {
+    background-color: #4338ca;
+}
+
+.focus-image img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 24px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
