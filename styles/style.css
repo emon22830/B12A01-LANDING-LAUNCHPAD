@@ -80,10 +80,7 @@ header{
 }
 
 
-.banner{
-   margin: 150px 265px 0 265px;
-    
-}
+
 
 .banner-title {
     color: rgb(37, 36, 50);
@@ -149,6 +146,8 @@ border-radius: 48px;
 .card-info-container{
     display: flex;
     justify-content: center;
+    align-items: center;
+
    
 
 }
@@ -170,6 +169,14 @@ border-radius: 48px;
         text-align: center;
 }
 
+
+.info-num-style{
+    font-family: Inter;
+}
+
+.info-num{
+    line-height: 0%;
+}
 
 
 
@@ -193,6 +200,7 @@ border-radius: 48px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     display: flex;
     flex-direction: column;
+    gap: 20px;
 
 }
 
@@ -264,9 +272,6 @@ border-radius: 48px;
 }
 
 
-
-
-
 /* Contact Section */
 .contact-section {
     background-color: #f4f6fc;
@@ -311,15 +316,13 @@ border-radius: 48px;
     background-color: white;
     resize: none;
     outline: none;
-    transition: border 0.3s;
+   
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
     border-color: #4f46e5;
 }
-
-
 
 
 
